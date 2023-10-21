@@ -8,18 +8,18 @@
 const info = {
   firstName: "Qadar",
   lastName: "Omar",
-  favoriteFood: "pasta",
+  "favorite food": "pasta",
   bestFriend: {
     firstName: "Erich ",
     lastName: "Bachman",
-    favoriteFood: "yogurt",
+    "favorite food": "yogurt",
   },
 };
 
 // 2. console.log best friend's firstName and your favorite food
 
 console.log(
-  `my best friend's name is ${info.bestFriend.firstName}and my favorite food is ${info.favoriteFood}`
+  `my best friend's name is ${info.bestFriend.firstName}and my favorite food is ${info["favorite food"]}`
 );
 
 // 3. Create an array to represent this tic-tac-toe board
