@@ -19,7 +19,7 @@ const info = {
 // 2. console.log best friend's firstName and your favorite food
 
 console.log(
-  `my best friend's name is ${info.bestFriend.firstName} and his favorite food is ${info.bestFriend.favoriteFood}`
+  `my best friend's name is ${info.bestFriend.firstName}and my favorite food is ${info.favoriteFood}`
 );
 
 // 3. Create an array to represent this tic-tac-toe board
