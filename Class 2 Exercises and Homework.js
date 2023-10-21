@@ -5,8 +5,22 @@
 // - 'favorite food'
 // - bestFriend (object with the same 3 properties as above)
 
-// test add, commit and push
+const info = {
+  firstName: "Qadar",
+  lastName: "Omar",
+  favoriteFood: "pasta",
+  bestFriend: {
+    firstName: "Erich ",
+    lastName: "Bachman",
+    favoriteFood: "yogurt",
+  },
+};
+
 // 2. console.log best friend's firstName and your favorite food
+
+console.log(
+  `my best friend's name is ${info.bestFriend.firstName} and his favorite food is ${info.bestFriend.favoriteFood}`
+);
 
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
